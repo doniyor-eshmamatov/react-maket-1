@@ -1,0 +1,23 @@
+.partners {
+  margin: 84px 0 0;
+}
+
+
+.partners__item {
+  padding: 23px 32px;
+  width: 177px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #08080A;
+  border: 1px solid #0D0C0F;
+  border-radius: 16px;
+}
+
+.partners__item img{
+  height: 50px;
+  object-fit: fill;
+  display: block;
+  margin: 0 auto;
+}

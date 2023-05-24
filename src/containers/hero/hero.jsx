@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroButtons from './hero-buttons';
 import './hero.css';
+import Partners from './partners';
 
 export default function Hero() {
 	return (
@@ -19,6 +20,7 @@ export default function Hero() {
 					</p>
 				</div>
 				<HeroButtons />
+				<Partners/>
 			</div>
 		</section>
 	);

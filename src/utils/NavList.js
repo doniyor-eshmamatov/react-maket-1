@@ -11,8 +11,8 @@ export const NavList = [
   },
   {
     id: 3,
-    name: 'Movie Details',
-    path: '/movie-details',
+    name: 'Movie Release',
+    path: '/movie-release',
   },
   {
     id: 4,

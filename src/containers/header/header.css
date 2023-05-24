@@ -1,0 +1,15 @@
+
+.site-header {
+  padding: 40px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: transparent;
+}
+
+.site-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+

@@ -1,0 +1,38 @@
+
+.hero-linkbox {
+  display: flex;
+  align-items: center;
+}
+
+.hero-btn {
+  padding: 12px 24px 12px 58px;
+  margin-right: 24px;
+  border-radius: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  color: #F9F9F9;
+  background-repeat: no-repeat;
+  background-position: calc(0% + 27px) center;
+  border: none;
+}
+
+.hero-btn-1 {
+  background-color: #00925D;
+  background-image: url('../../assets/images/hero-btn-1.svg');
+}
+
+
+.hero-btn-2 {
+  background-color: #28262D;
+  background-image: url('../../assets/images/hero-btn-2.svg');
+}
+  
+.hero-btn-3 {
+    background-color: transparent;
+    background-image: url('../../assets/images/hero-btn-3.svg');
+    border: 1px solid #FFFFFF;
+  }

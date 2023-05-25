@@ -26,6 +26,7 @@
   min-width: 280px;
   width: 100%;
   background-image: url('../../assets/images/just-img-1.png');
+  background-repeat: no-repeat;
   border-radius: 16px;
 }
 .just__item:nth-child(2) {

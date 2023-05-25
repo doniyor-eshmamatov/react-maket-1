@@ -20,8 +20,8 @@ export default function Hero() {
 					</p>
 				</div>
 				<HeroButtons />
-				<Partners/>
 			</div>
+			<Partners />
 		</section>
 	);
 }

@@ -1,0 +1,76 @@
+.just {
+  background-color: #0D0C0F;
+}
+
+.container-just {
+  max-width: 1390px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 45px;
+}
+
+.just__inner {
+  position: relative;
+}
+
+.just__list {
+  padding-left: 5px;
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+}
+
+.just__item {
+  padding: 320px 20px 20px;
+  min-width: 280px;
+  width: 100%;
+  background-image: url('../../assets/images/just-img-1.png');
+  border-radius: 16px;
+}
+.just__item:nth-child(2) {
+  background-image: url('../../assets/images/just-img-2.png');
+}
+
+.just__item:nth-child(3) {
+  background-image: url('../../assets/images/just-img-3.png');
+}
+
+.just__item:nth-child(4) {
+  background-image: url('../../assets/images/just-img-4.png');
+}
+
+
+
+
+
+.just__item__title {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #F9F9F9;
+}
+
+.just__item__title ~ p {
+  padding-top: 4px;
+  padding-left: 2px;
+}
+
+
+
+.just__gradient {
+  top: 0;
+  right: 12px;
+  position: absolute;
+  z-index: 2;
+  width: 167px;
+  height: 100%;
+  background: linear-gradient(269.96deg, #0D0C0F 18.88%, rgba(13, 12, 15, 0) 99.97%, #0D0C0F 99.97%);
+}
+
+.just__inner .just__gradient {
+  right: -45px;
+}

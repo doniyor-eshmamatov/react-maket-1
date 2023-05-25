@@ -1,0 +1,84 @@
+
+
+.container-watch {
+  max-width: 1320px;
+  padding: 0 0 0 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+.watch {
+  background-color: #0D0C0F;
+  padding: 0 0 52px;
+}
+
+.watch-title {
+  margin: 0 0 24px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.005em;
+  color: #F9F9F9;
+}
+
+.watch-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.watch-item {
+  max-width: 425px;
+  width: 100%;
+}
+
+.watch-item__inner {
+  padding: 214px 20px 43px;
+  max-width: 425px;
+  width: 100%;
+  background-image: url('../../assets/images/watch-1.png');
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  background-position: center;
+}
+
+.watch-item__2 {
+  background-image: url('../../assets/images/watch-2.png');
+}
+
+.watch-item__3 {
+  background-image: url('../../assets/images/watch-3.png');
+}
+
+.slick-next::before {
+  color: #28262D;
+}
+
+.slick-prev {
+  display: none !important;
+}
+
+.watch-item__title {
+  margin: 0 0 9px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #F9F9F9;
+}
+
+.watch-item__year {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #78828A;
+}

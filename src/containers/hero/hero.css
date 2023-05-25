@@ -1,11 +1,11 @@
 
 
 .hero {
-  padding: 306px 0 64px;
+  padding: 306px 0 61px;
   background-image: url('../../assets/images/hero-bg.png');
-  background-position: center bottom;
+  background-position: center calc(0% + 3px);
   background-repeat: no-repeat;
-  background-size: 107%;
+  /* background-size: 100%; */
   background-color: #0D0C0F;
 }
 
@@ -22,7 +22,7 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
-  letter-spacing: 0.005em;
+  letter-spacing: -0.01em;
   color: #FFFFFF;
 }
 

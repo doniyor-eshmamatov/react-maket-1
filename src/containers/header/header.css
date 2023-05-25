@@ -5,6 +5,7 @@
   width: 100%;
   top: 0;
   background-color: transparent;
+  transition: all 0.5s linear;
 }
 
 .site-header-inner {
@@ -13,3 +14,7 @@
   justify-content: space-between;
 }
 
+.hide {
+  transform: translate(0%, -100%);
+  transition: all 500ms linear;
+}

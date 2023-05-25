@@ -1,0 +1,48 @@
+.lists {
+  padding: 77px 0 0;
+  background-color: #0D0C0F;
+}
+
+.lists-inner {
+  padding-left: 4px;
+  position: relative;
+}
+
+.lists-list {
+  display: flex;
+  align-items: flex-start;
+  list-style-type: none;
+  gap: 16px;
+}
+
+.lists-item img {
+  border-radius: 16px;
+  vertical-align: middle;
+}
+
+.lists-title {
+  padding: 0 0 24px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: #F9F9F9;
+}
+
+.lists-item-title {
+  margin: 12px 0 12px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #F9F9F9;
+}
+
+
+.lists-inner .just__gradient {
+  right: -45px;
+}

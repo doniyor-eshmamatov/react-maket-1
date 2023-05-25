@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../../containers/header/header';
 import Hero from '../../containers/hero/hero';
 import Just from '../../containers/just/just';
+import Lists from '../../containers/lists/lists';
 import Populars from '../../containers/populars/populars';
 import Watch from '../../containers/watch/watch';
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Watch/>
       <Populars/>
       <Just/>
+      <Lists/>
     </div>
   )
 }

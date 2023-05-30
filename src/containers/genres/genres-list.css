@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800&display=swap);
+
+
+.genres-group-inner {
+	position: relative;
+}
+
+.container-just {
+  max-width: 1490px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 95px;
+}
+
+.genres-list {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+  gap: 16px;
+}
+
+
+.genres-item {
+  padding: 40px 0;
+  min-width: 215px;
+  text-align: center;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 100%;
+  color: #F9F9F9;
+  background: linear-gradient(0deg, rgba(22, 24, 30, 0.7), rgba(22, 24, 30, 0.7));
+  border: 1px solid rgba(249, 249, 249, 0.1);
+  border-radius: 12px;
+}

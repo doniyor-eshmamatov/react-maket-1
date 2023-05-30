@@ -1,4 +1,5 @@
 import React from 'react'
+import Genres from '../../containers/genres/genres';
 import Header from '../../containers/header/header';
 import Hero from '../../containers/hero/hero';
 import Just from '../../containers/just/just';
@@ -17,6 +18,7 @@ export default function Home() {
       <Just/>
       <Lists/>
       <Likes/>
+      <Genres/>
     </div>
   )
 }

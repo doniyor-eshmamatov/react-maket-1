@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../containers/footer/footer';
 import Genres from '../../containers/genres/genres';
 import Header from '../../containers/header/header';
 import Hero from '../../containers/hero/hero';
@@ -19,6 +20,7 @@ export default function Home() {
       <Lists/>
       <Likes/>
       <Genres/>
+      <Footer/>
     </div>
   )
 }

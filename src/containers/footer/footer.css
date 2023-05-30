@@ -1,0 +1,86 @@
+.site-footer {
+  padding: 80px 0 42px;
+  background: #0d0c0f;
+}
+
+.site-footer__container {
+  color: #fff;
+  max-width: 1290px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.site-footer__inner {
+  padding: 0 0 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-footer__title {
+  margin: 0;
+  max-width: 444px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.site-footer__nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.site-footer__nav p {
+  margin-top: -10px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: right;
+}
+
+.site-footer__nav p span {
+  padding: 0 10px;
+}
+
+.site-footer__nav ul {
+  margin-bottom: -5px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 40px;
+}
+
+.site-footer__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-footer__bottom ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 26px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.site-footer__bottom p {
+    font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  color: #ffffff;
+  opacity: 0.7;
+}

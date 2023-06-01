@@ -40,19 +40,19 @@
   padding: 214px 20px 43px;
   max-width: 425px;
   width: 100%;
-  background-image: url('../../assets/images/watch-1.png');
+  /* background-image: url('../../assets/images/watch-1.png'); */
   background-repeat: no-repeat;
   border-radius: 16px;
   background-position: center;
 }
 
-.watch-item__2 {
+/* .watch-item__2 {
   background-image: url('../../assets/images/watch-2.png');
 }
 
 .watch-item__3 {
   background-image: url('../../assets/images/watch-3.png');
-}
+} */
 
 .slick-next::before {
   color: #28262D;

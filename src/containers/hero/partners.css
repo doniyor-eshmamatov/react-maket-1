@@ -28,12 +28,12 @@
 .partners-item-img {
   width: 100%;
   height: 100%;
-  background-image: url('../../assets/images/partner-img1.svg');
   background-repeat: no-repeat;
   background-position: center;
+  /* background-image: url('../../assets/images/partner-img1.svg'); */
 }
 
-.partners__item:nth-child(2) .partners-item-img {
+/* .partners__item:nth-child(2) .partners-item-img {
   background-image: url('../../assets/images/partner-img2.svg');
 }
 
@@ -52,4 +52,4 @@
 }
 .partners__item:nth-child(7) .partners-item-img {
   background-image: url('../../assets/images/partner-img7.svg');
-}
+} */

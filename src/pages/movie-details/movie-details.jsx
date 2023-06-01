@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import MovieDetailsPage from '../../containers/movie-details.page/movie-details';
 
 export default function MovieDetails() {
   return (
-    <div>MovieDetails</div>
+    <div>
+      <MovieDetailsPage/>
+    </div>
   )
 }

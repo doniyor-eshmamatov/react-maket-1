@@ -1,0 +1,24 @@
+
+.md-nav-list {
+  padding-left: 28px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+
+.md-nav-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.md-nav-item:first-child {
+  font-weight: 800;
+}
+
+.md-nav-item + .md-nav-item {
+  margin-left: 32px;
+}

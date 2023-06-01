@@ -4,6 +4,7 @@
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 2;
   background-color: transparent;
   transition: all 0.5s linear;
 }

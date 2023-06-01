@@ -5,7 +5,7 @@ export default function JustListRender({array}) {
     array?.map((el) => {
         return (
           <li
-            key={el.id}
+            key={el.title}
             className="just__item just__item-1"
             style={{ backgroundImage: `url(${el.img_url})` }}
           >

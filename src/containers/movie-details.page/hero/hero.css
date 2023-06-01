@@ -2,7 +2,7 @@
 
 .md-hero {
   padding: 396px 0 61px;
-  background-image: url('../../../assets/images/hero-2-page-bg.png');
+  /* background-image: url('../../../assets/images/hero-2-page-bg.png'); */
   background-position: center calc(0% + 3px);
   background-repeat: no-repeat;
   background-color: #0D0C0F;

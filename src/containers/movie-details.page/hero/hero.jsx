@@ -1,18 +1,28 @@
-import React from 'react';
-import HeroButtons from './hero-buttons';
-import './hero.css';
+import React from "react";
+import HeroButtons from "./hero-buttons";
+import "./hero.css";
+import Loader from "../../loader/loader";
 
-export default function Hero() {
-	return (
-		<section className='md-hero'>
-			<div className='container'>
-				<div className='md-hero-inner'>
-					<p className='hero-text-1'>Series</p>
-					<h1 className='hero-title'>The Last Of Us Season 1</h1>
-					<p className='hero-text-2'>9 Episodes • 2022 • Fantasy • Actions</p>
-				</div>
-				<HeroButtons />
-			</div>
-		</section>
-	);
+export default function Hero({ oneMovie }) {
+  if (oneMovie) {
+    return (
+      <section
+        className="md-hero"
+        style={{ backgroundImage: `url(${oneMovie.img_url})`, backgroundSize: 'contain' }}
+      >
+        <div className="container">
+          <div className="md-hero-inner">
+            <p className="hero-text-1">Series</p>
+            <h1 className="hero-title">{oneMovie.title}</h1>
+            <p className="hero-text-2">{oneMovie.type}</p>
+          </div>
+          <HeroButtons />
+        </div>
+      </section>
+    );
+  } else {
+    return <Loader />;
+  }
 }
+
+//

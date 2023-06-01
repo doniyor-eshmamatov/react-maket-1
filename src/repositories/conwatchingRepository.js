@@ -15,6 +15,21 @@ class ConwatchingRepository {
 
 		return watchingList;
 	}
+
+	getOneMoviePage(id) {
+		const endPoint = '/watching/' + id;
+
+		const watchingList = client
+			.get(baseDomain + endPoint)
+			.then((res) => {
+				return res.data
+			})
+			.catch((err) => {
+				return err
+			});
+
+		return watchingList;
+	}
 }
 
 export default new ConwatchingRepository();

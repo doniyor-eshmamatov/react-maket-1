@@ -3,6 +3,7 @@ import './header-nav.css';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import navbarRepository from '../../repositories/navbarRepository';
+import NavListRender from './navListRender';
 
 export default function Navbar() {
 
@@ -19,11 +20,7 @@ export default function Navbar() {
 
   return (
     <nav className='navbar'>
-      <ul className='nav-list'>
-        {
-          navlist.map(el => <li className='nav-item' key={el.id}>{el.name}</li>)
-        }
-      </ul>
+      <NavListRender array={navlist}/>
     </nav>
   )
 }

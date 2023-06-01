@@ -5,6 +5,7 @@ import './watch.css';
 import { useState } from 'react';
 import conwatchingRepository from '../../repositories/conwatchingRepository';
 import { useEffect } from 'react';
+import WatchListRender from './watchListRender';
 
 export default function Watch() {
 	const [watchList, setWatchList] = useState([]);
@@ -23,18 +24,7 @@ export default function Watch() {
 			<div className='container-watch'>
 				<div className='watch-inner'>
 					<h2 className='watch-title'>Continue Watching</h2>
-					<div className='watch-list'>
-						{watchList.map((el) => {
-							return (
-								<div className='watch-item' key={el.id} style={{ backgroundImage: `url(${el.img_url})` }}>
-									<div className='watch-item__inner'>
-										<h3 className='watch-item__title'>{el.title}</h3>
-										<p className='watch-item__year'>{el.year}</p>
-									</div>
-								</div>
-							);
-						})}
-					</div>
+					<WatchListRender array={watchList}/>
 				</div>
 			</div>
 		</div>

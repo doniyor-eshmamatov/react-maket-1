@@ -1,15 +1,26 @@
 import React from 'react';
 import './header-nav.css';
-import { NavList } from '../../../utils/NavList';
+import { useState } from 'react';
+import { useEffect } from 'react';
+import navbarRepository from '../../../repositories/navbarRepository';
+import NavListRender from '../../header/navListRender';
 
 export default function Navbar() {
+
+  const [navlist, setNavlist] = useState([]);
+
+  const getNavbar = async () => {
+    const data = await navbarRepository.getNavList()
+    setNavlist(data)
+  }
+
+  useEffect(() => {
+    getNavbar()
+  }, [])
+
   return (
-    <nav className='md-navbar'>
-      <ul className='md-nav-list'>
-        {
-          NavList.map(el => <li className='md-nav-item' key={el.id}>{el.name}</li>)
-        }
-      </ul>
+    <nav className='navbar'>
+      <NavListRender array={navlist}/>
     </nav>
   )
 }

@@ -73,14 +73,14 @@
 
 .populars-item-img {
   min-width: 107px;
-  background-image: url('../../assets/images/populars-img-1.png');
+  /* background-image: url('../../assets/images/populars-img-1.png'); */
   background-position: top;
   background-size: cover;
   border-radius: 16px;
 }
 
 
-.populars-item-img-2 {
+/* .populars-item-img-2 {
   background-image: url('../../assets/images/populars-img-2.png');
 }
 
@@ -89,7 +89,7 @@
 }
 .populars-item-img-4 {
   background-image: url('../../assets/images/populars-img-4.png');
-}
+} */
 
 .populars-item-text-1 {
   display: flex;
